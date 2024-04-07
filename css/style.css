@@ -502,7 +502,7 @@ button {
   margin-left: 80px;
 }
 
-.footer-subscribe-container {
+.footer-form-container {
   display: flex;
   gap: 24px;
   margin-left: 80px;
@@ -741,7 +741,8 @@ button {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
+  display: inline-flex;
+  /*display: flex;*/
   align-items: center;
 }
 
@@ -758,7 +759,7 @@ button {
   height: 16px;
 }*/
 
-.check-text span {
+.check-text-span {
   position: relative;
   width: 16px;
   height: 16px;
