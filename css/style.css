@@ -7,7 +7,7 @@ body {
 a {
   text-decoration: none;
   text-decoration-color: none;
-  display: block;
+  /*display: block;*/
 }
 
 h1,
@@ -536,7 +536,6 @@ button {
   border: none;
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 16px;
   font-weight: 500;
   font-size: 16px;
@@ -560,9 +559,8 @@ button {
   background: #404bbf;
 }
 
-.modal-icon {
+.footer-modal-icon {
   fill: #fff;
-  margin-left: 16px;
 }
 
 /* ==========MODAL========== */
@@ -698,7 +696,6 @@ button {
 .modal-icon {
   position: absolute;
   fill: transparent;
-  stroke: #2e2f42;
   fill: #2e2f42;
   left: 16px;
   top: 50%;
