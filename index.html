@@ -478,7 +478,7 @@
                 placeholder="E-mail"
                 class="footer-input"
               />
-            </label for="frame">
+            <label for="frame"></label>
             <button type="submit" class="footer-form-btn">Subscribe
               <svg class="modal-icon" width="24" height="20">
                   <use href="./images/icons.svg#frame"></use>
@@ -546,29 +546,26 @@
               name="user-comment"
               id="user-comment"
               placeholder="Text input"
+              class="modal-text"
             ></textarea>
           </div>
-          <div class="modal-field">
+          <div class="modal-field check-field">
             <input
               type="checkbox"
-              name="privacy"
+              name="user-privacy"
               required
-              id="privacy"
+              id="user-privacy"
+              value="true"
               class="modal-check visually-hidden"
             />
-            <label for="privacy" class="check-text"
+            <label for="user-privacy" class="check-text"
               ><span
                 ><svg class="modal-check-icon" width="10" height="8">
-                  <use href="./images/icons.svg#verctor"></use></svg></span
+                  <use href="./images/icons.svg#vector"></use></svg></span
               >I accept the terms and conditions of the
               <a href="" class="check-link">Privacy Policy</a></label
             >
           </div>
-          <span class="checkbox-span"
-            ><svg class="checkbox-icon" width="10" height="8">
-              <use href="./images/icons.svg#vector"></use>
-            </svg>
-          </span>
           <button type="submit" class="modal-button">Send</button>
         </form>
       </div>
