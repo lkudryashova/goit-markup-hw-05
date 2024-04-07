@@ -508,6 +508,9 @@ button {
   margin-left: 80px;
 }
 
+.subscribe-field-label {
+}
+
 .footer-input {
   border: 1px solid #fff;
   border-radius: 4px;
@@ -545,7 +548,7 @@ button {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 4px;
   padding: 8px 24px;
-  display: block;
+  display: flex;
   margin: 0 auto;
   min-width: 165px;
   height: 40px;
@@ -559,6 +562,7 @@ button {
 
 .modal-icon {
   fill: #fff;
+  margin-left: 16px;
 }
 
 /* ==========MODAL========== */
@@ -769,7 +773,6 @@ button {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
-  border: none;
   display: inline-flex;
   align-items: center;
   justify-content: center;
